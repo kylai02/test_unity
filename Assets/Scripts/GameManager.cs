@@ -35,7 +35,7 @@ public class GameManager : MonoBehaviour {
     if (isPlaying) {
       time_f += Time.deltaTime;
       score = (int)time_f;
-      gameTimeUI.text = time_f.ToString("0.00");
+      gameTimeUI.text = time_f.ToString();
       gameScoreUI.text = score.ToString();
     }
   }
